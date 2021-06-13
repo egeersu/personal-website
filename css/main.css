@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');h1, h2, h3 {
+    font-family: 'Raleway', serif;
+    font-size: 1rem;
+}
+
+/* Header */
+.my-name{
+    font-family: 'Raleway', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    font-weight: 800;
+    padding: 10px 0 0 0;
+}
+
+.header {
+    text-align: right;
+    padding: 0.7em 0 1.2em 5em;
+    margin: 0 20vw;
+}
+
+.header a {
+    font-family: 'Raleway', serif;
+    font-size: 0.70em;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    height: 100%;
+}
+
+.header a:hover {
+    background-color: red;
+}
+
+.intro-bio {
+    font-family: 'Raleway', serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: black;
+    background-color: red(150, 150, 150);
+    margin: 2vw 25vw 0vw 25vw;
+    padding: 0em 1em 0em 1em;    
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.intro-bio a{
+    color: black;
+    text-decoration: None;
+    font-weight: 800;
+}
+
+.intro-bio a:hover{
+    background-color: red;
+    color:white;
+}
+
+/* Main Page */
+.intro {
+    font-size: 0.79rem;
+    font-family: 'Raleway', serif;
+}
+
+.intro a {
+    font-family: 'Raleway', serif;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: white;
+}
+
+.intro a:hover {
+    color:white;
+    background-color: black;
+}
+
+/* Wrappers */
+.wrapper-main {
+    margin: 0 50vw;
+}
+
+.wrapper-gallery {
+    margin: 0 20vw;
+}
+
+.wrapper-blog {
+    margin: 0 20vw;
+}
+
+.social-icons {
+    text-align: center;
+    margin: 1vw 25vw;
+}
+
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.8rem;
+    width: 1.8rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 0%;
+    font-size: 1rem;
+    margin: 0.3rem 0rem 0rem 0rem;
+    padding: 0rem;
+}
+  .social-icons .social-icon:last-child {
+    margin-right: 0;
+  }
+  .social-icons .social-icon:hover {
+    /*background-color: #e0e0e0;*/
+    background-color: red;
+    color: black;
+  }
+  
+  .dev-icons {
+    font-size: 3rem;
+  }
+
+@media (max-width: 1400px) {
+
+    .intro-bio {
+        margin: 0;
+        font-size: 0.8rem;
+    }
+
+    .wrapper-main {
+        margin: 0;
+    }
+    
+    .wrapper-gallery {
+        margin: 0;
+    }
+    
+    .wrapper-blog {
+        margin: 0;
+    }
+
+    .header {
+        text-align: right;
+        padding: 1em 0 2em 0em;
+        margin: 0 0vw;
+    }
+
+    .social-icons {
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+
+    .social-icons .social-icon{
+        height: 1.8rem;
+        width: 1.8rem;
+        font-size: 1rem;
+        margin: 1rem 0 0 0;
+    }
+    
+    .my-name{
+        font-family: 'Raleway', serif;
+        font-size: 1.5rem;
+        text-align: center;
+        letter-spacing: 0.5rem;
+        font-weight: 800;
+        padding: 10px 0 0 0;
+    }
+}
+
