@@ -1,3 +1,9 @@
+#index-gallery .img-compose{
+    grid-area: img-compose;
+    background-image: url('../img/composegif.gif');
+    border: 1px solid black;
+}
+
 #index-gallery .img-onnx{
     grid-area: img-onnx;
     background-image: url('../img/blog-images/onnx.png');
@@ -123,8 +129,9 @@
     gap: 0px;
     grid-template-areas:     
     "gallery-h3 gallery-h3"
-    "img-edi img-onnx"
-    "img-lstmn img-pacwar"
+    "img-compose img-edi"
+    "img-onnx img-lstmn"
+    "img-pacwar img-pacwar"
     "gallery-h2 gallery-h2"
     "img0 img1"
     "img2 img3"
@@ -218,6 +225,7 @@
     #index-gallery {
         grid-template-areas:     
         "gallery-h3 gallery-h3"
+        "img-compose img-compose"
         "img-edi img-edi"
         "img-onnx img-onnx"
         "img-lstmn img-lstmn"
