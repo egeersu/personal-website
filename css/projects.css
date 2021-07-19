@@ -4,6 +4,13 @@
     border: 1px solid black;
 }
 
+#index-gallery .img-filler{
+    grid-area: img-compose;
+    background-image: none;
+    border: 1px solid black;
+}
+
+
 #index-gallery .img-onnx{
     grid-area: img-onnx;
     background-image: url('../img/blog-images/onnx.png');
@@ -131,7 +138,7 @@
     "gallery-h3 gallery-h3"
     "img-compose img-edi"
     "img-onnx img-lstmn"
-    "img-pacwar img-pacwar"
+    "img-pacwar img-filler"
     "gallery-h2 gallery-h2"
     "img0 img1"
     "img2 img3"
