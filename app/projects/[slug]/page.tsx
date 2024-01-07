@@ -76,7 +76,7 @@ export default function Project({ params }: { params: any }) {
             Need more project details, or interested in working together? Reach
             out to me directly at{" "}
             <a href="mailto:egeersu@gmail.com" className="text-primary underline">
-              brian@b-r.io
+              egeersu@gmail.com
             </a>
             . Always happy to connect! {" "}
           </p>
