@@ -167,7 +167,7 @@ export default function About() {
 
 const workplaces = [
   {
-    title: "Data Engineer",
+    title: "Senior Data Engineer",
     company: "Perlego",
     time: "2022 -",
     imageSrc: perlegoLogo,

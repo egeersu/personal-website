@@ -50,7 +50,7 @@ export default async function Home() {
         >
           Hey, it&apos;s Ege. I&apos;m an engineer who loves solving problems using big data & machine learning. 
   
-              These days I&apos;m working as a Data Engineer at{" "}
+              These days I&apos;m working as a Senior Data Engineer at{" "}
               <Link
                 className="underline"
                 href="https://www.perlego.com/"
