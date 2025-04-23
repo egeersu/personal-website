@@ -50,7 +50,7 @@ export default async function Home() {
         >
           Hey, it&apos;s Ege. I&apos;m an engineer who loves solving problems using big data & machine learning. 
   
-              Currently I&apos;m working as a Data Engineer at{" "}
+              These days I&apos;m working as a Data Engineer at{" "}
               <Link
                 className="underline"
                 href="https://www.baldertoncapital.com/"
@@ -59,6 +59,7 @@ export default async function Home() {
                 Balderton Capital
               </Link>
               , one of Europe's leading venture capital firms, where I'm building automation and AI-driven tools to enhance investment operations and decision-making.      
+            </p>
 
         {/* <ul
           className="animated-list flex animate-in flex-col gap-2 text-secondary md:flex-row md:gap-6"
