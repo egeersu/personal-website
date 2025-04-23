@@ -23,8 +23,8 @@ const ConnectLinks: ConnectLink[] = [
     ),
   },
   {
-    label: "Email (Perlego)",
-    href: "mailto:ege@perlego.com",
+    label: "Email (Work)",
+    href: "mailto:eersu@balderton.com",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

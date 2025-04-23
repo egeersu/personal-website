@@ -6,7 +6,7 @@ import Section from "@/components/Section";
 import ConnectLinks from "../../components/ConnectLinks";
 import Workplaces from "./components/Workplaces";
 
-
+import baldertonLogo from "public/work/balderton.png"
 import perlegoLogo from "public/work/perlego.png"
 import kuisLogo from "public/work/kuis.jpeg"
 import miletosLogo from "public/work/miletos.png"
@@ -107,12 +107,12 @@ export default function About() {
               Currently I&apos;m working as a Data Engineer at{" "}
               <Link
                 className="underline"
-                href="https://www.perlego.com/"
+                href="https://www.baldertoncapital.com/"
 
               >
-                Perlego
+                Balderton Capital
               </Link>
-              , an online library with a subscription-based service providing access to textbooks with built-in learning tools.
+              , one of Europe's leading venture capital firms, where I'm building automation and AI-driven tools to enhance investment operations and decision-making.
             </p>
             <Workplaces items={workplaces} />
           </div>
@@ -167,9 +167,16 @@ export default function About() {
 
 const workplaces = [
   {
+    title: "Data Engineer",
+    company: "Balderton Capital",
+    time: "2025 -",
+    imageSrc: baldertonLogo,
+    link: "https://www.baldertoncapital.com/",
+  },
+  {
     title: "Senior Data Engineer",
     company: "Perlego",
-    time: "2022 -",
+    time: "2022 - 2025",
     imageSrc: perlegoLogo,
     link: "https://www.perlego.com/",
   },
