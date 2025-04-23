@@ -50,16 +50,15 @@ export default async function Home() {
         >
           Hey, it&apos;s Ege. I&apos;m an engineer who loves solving problems using big data & machine learning. 
   
-              These days I&apos;m working as a Senior Data Engineer at{" "}
+              Currently I&apos;m working as a Data Engineer at{" "}
               <Link
                 className="underline"
-                href="https://www.perlego.com/"
+                href="https://www.baldertoncapital.com/"
 
               >
-                Perlego
+                Balderton Capital
               </Link>
-              , a subscription-based online library offering a vast collection of textbooks, with built-in learning tools.
-            </p>
+              , one of Europe's leading venture capital firms, where I'm building automation and AI-driven tools to enhance investment operations and decision-making.      
 
         {/* <ul
           className="animated-list flex animate-in flex-col gap-2 text-secondary md:flex-row md:gap-6"
